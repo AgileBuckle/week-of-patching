@@ -176,3 +176,22 @@ footer {
   text-align: center;
 }
 
+a {
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(63, 198, 255, 0.4);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+a:hover {
+  color: var(--pink);
+  border-bottom-color: rgba(240, 168, 196, 0.7);
+}
+
+a:visited {
+  color: var(--pink);
+}
+
+a:active {
+  opacity: 0.8;
+}
